@@ -1,7 +1,7 @@
 # _*_ coding:utf-8 _*_
 
-# Programa para verificar calcular os lados de um triangulo
-# e verificar se e RETANGULO, OBTUSANGULO, ACUTANGULO
+# Programa para verificar o calculo dos lados de um triangulo
+# e verificar se e um triangulo RETANGULO, OBTUSANGULO, ACUTANGULO
 # EQUILATERO ou ISOSCELES
 
 A = float(input("Primeiro Valor: "))
