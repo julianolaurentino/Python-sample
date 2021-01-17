@@ -2,11 +2,11 @@
 
 # Programa para verificar calcular os lados de um triangulo
 # e verificar se e RETANGULO, OBTUSANGULO, ACUTANGULO
-# EQUILATEROO ou ISOSCELES
+# EQUILATERO ou ISOSCELES
 
 A = float(input("Primeiro Valor: "))
 B = float(input("Segundo Valor: "))
-C = float("Terceiro Valor: "))
+C = float(("Terceiro Valor: "))
 
 x = 0
 
@@ -33,10 +33,8 @@ elif (A**2 > b**2 + c**2):
     print("TRIANGULO OBUSANGULO")
 elif (A**2 < B**2 + C**2):
     print("TRIANGULO ACUTANGULO")
-elif (A=B and A==C):
+elif (A==B and A==C):
     print("TRIANGULO EQUILATERO")
-elif ((A=B and A!=C) or (B==C and B!=A)):
+elif ((A==B and A!=C) or (B==C and B!=A)):
     print("TRIANGULO ISOSCELES")
 print("Fim do Programa")
-
-
