@@ -30,7 +30,7 @@ if (A > B+C):
 elif (A**2 == B**2 + C**2):
     print("TRIANGULO RETANGULO")
 elif (A**2 > B**2 + C**2):
-    print("TRIANGULO OBUSANGULO")
+    print("TRIANGULO OBTUSANGULO")
 elif (A**2 < B**2 + C**2):
     print("TRIANGULO ACUTANGULO")
 elif (A==B and A==C):
