@@ -1,7 +1,7 @@
 # _*_ coding:utf-8 _*_
 
-# Programa para verificar calcular os lados de um triangulo
-# e verificar se e RETANGULO, OBTUSANGULO, ACUTANGULO
+# Programa para verificar o calculo dos lados de um triangulo
+# e verificar se e um triangulo RETANGULO, OBTUSANGULO, ACUTANGULO
 # EQUILATERO ou ISOSCELES
 
 A = float(input("Primeiro Valor: "))
@@ -30,7 +30,7 @@ if (A > B+C):
 elif (A**2 == B**2 + C**2):
     print("TRIANGULO RETANGULO")
 elif (A**2 > B**2 + C**2):
-    print("TRIANGULO OBUSANGULO")
+    print("TRIANGULO OBTUSANGULO")
 elif (A**2 < B**2 + C**2):
     print("TRIANGULO ACUTANGULO")
 elif (A==B and A==C):
