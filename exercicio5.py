@@ -11,7 +11,7 @@ multiplicacao = a * b
 divisao = a / b 
 resto = a % b 
 
-Resultado = ('Soma: {soma}'
+resultado = ('Soma: {soma}'
             '\nSubtração: {subtracao}'
             '\nMultiplicação: {multiplicacao}'
             '\nDivisão: {divisao}'
@@ -20,5 +20,5 @@ Resultado = ('Soma: {soma}'
                                     multplicacao=multiplicacao,
                                     divisao=divisao,
                                     resto=resto,))
-print(Resultado)
+print(resultado)
  
