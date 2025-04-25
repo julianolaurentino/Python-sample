@@ -26,13 +26,4 @@ idades = [
 ]
 
 series_idades = pd.Series(idades)
-
-media_idades = series_idades.mean()
-print("media:" ,media_idades)
-
-variancia_idades = series_idades.var()
-print("variancia:" ,variancia_idades)
-
-sumary_idades = series_idades.describe()
-print("sumary:" ,sumary_idades)
-
+print(series_idades)
