@@ -21,3 +21,12 @@ print("sumary:" ,sumary_idades)
 
 series_idades = pd.Series(idades)
 print(idades)
+
+# %%
+series_idades = series_idades.sort_values()
+series_idades
+
+# %%
+series_idades.iloc[0]
+series_idades[0]
+series_idades.iloc[:3]
