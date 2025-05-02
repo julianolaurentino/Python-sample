@@ -7,7 +7,7 @@ df.head(5)
 pontos = [10, 20, 30 ,40 
           ,50 ,60, 70, 80 ,90, 100]
 filtro = []
-valores_acima_50 = []
+valores_acima_50 = []                              
 for i in pontos:
     if i >=50:
         filtro.append(i)
@@ -36,10 +36,11 @@ pontos_acima_50 = df['qtdePontos'] >= 50
 df[pontos_acima_50]
 # %%
 #qtd de pontos acima de 50 e menor que 100
-acima_50_abaixo_100 = (df['qtdePontos'] >= 50) * (df['qtdePontos'] < 100)
+#'&' ou '*'
+acima_50_abaixo_100 = (df['qtdePontos'] >= 50) & (df['qtdePontos'] < 100) & (df['dtCriacao'] == '2024-11-11 12:36:33.625')
 df[acima_50_abaixo_100]
 
 # %%
-#utilizando o "ou" |
-acima_50_ou_abaixo_100 = (df['qtdePontos'] == 50) | (df['qtdePontos'] == 100)
-df[acima_50_ou_abaixo_100]
+#utilizando ou com '|', '+'acima_50_ou_abaixo_
+acima_50_ou_100 = (df['qtdePontos'] == 50) | (df['qtdePontos'] == 100)
+df[acima_50_ou_100]
