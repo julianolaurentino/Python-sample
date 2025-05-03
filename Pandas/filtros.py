@@ -31,16 +31,21 @@ brinquedo[filtro]
 
 df = pd.read_csv('../data/transacoes.csv')
 df.head(5)
-
 pontos_acima_50 = df['qtdePontos'] >= 50
 df[pontos_acima_50]
 # %%
 #qtd de pontos acima de 50 e menor que 100
-#'&' ou '*'
+#and == & ou '*'
 acima_50_abaixo_100 = (df['qtdePontos'] >= 50) & (df['qtdePontos'] < 100) & (df['dtCriacao'] == '2024-11-11 12:36:33.625')
 df[acima_50_abaixo_100]
 
 # %%
 #utilizando ou com '|', '+'acima_50_ou_abaixo_
+#or == | ou '+'
 acima_50_ou_100 = (df['qtdePontos'] == 50) | (df['qtdePontos'] == 100)
 df[acima_50_ou_100]
+
+# %%
+
+filtro = (df['qtdePontos'] > 0) & (df['qtdePontos'] <=50) & (df['dtCriacao'] >= '2025-01-01')
+df[filtro] 
