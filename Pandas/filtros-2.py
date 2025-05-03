@@ -13,3 +13,7 @@ df
 df['idProduto'].isin([5,11])
 df[filtro]
 # %%
+#valores não nulos (NA e NULO)
+clientes = pd.read_csv('../data/clientes.csv')
+clientes.head()
+clientes['dtCriacao'].isna()
