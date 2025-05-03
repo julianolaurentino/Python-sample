@@ -16,4 +16,9 @@ df[filtro]
 #valores não nulos (NA e NULO)
 clientes = pd.read_csv('../data/clientes.csv')
 clientes.head()
-clientes['dtCriacao'].isna()
+filtro= clientes['dtCriacao'].isna()
+clientes[filtro]
+# %%
+#negacao da condicao (usasse o ~, comparacao entre "isna()" e "notna()"
+~clientes['dtCriacao'].isna() #aqui busca o NA"
+clientes['dtCriacao'].notna() #Aqui nega o NA
