@@ -30,3 +30,14 @@ clientes.head()
 
 filtro = clientes['qtdePontos'] == 0
 clientes[filtro]
+# %%
+#utilizando copy para imagem diferente
+
+A = [1,2]
+B = A.copy(UY7)
+print('A:', A)
+print('B:', B)
+
+B.append('FODASE')
+print('A:', A) 
+print('B', B)
