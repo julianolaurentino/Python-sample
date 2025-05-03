@@ -22,3 +22,11 @@ clientes[filtro]
 #negacao da condicao (usasse o ~, comparacao entre "isna()" e "notna()"
 ~clientes['dtCriacao'].isna() #aqui busca o NA"
 clientes['dtCriacao'].notna() #Aqui nega o NA
+
+# %%
+#filtros view
+df = pd.read_csv('../data/clientes.csv')
+clientes.head()
+
+filtro = clientes['qtdePontos'] == 0
+clientes[filtro]
