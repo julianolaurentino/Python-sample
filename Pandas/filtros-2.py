@@ -3,7 +3,6 @@ import pandas as pd
 df = pd.read_csv('../data/transacao_produto.csv')
 df
 
-
 # %%
 filtro = (df['idProduto'] == 5) | (df['idProduto'] == 11) 
 df
@@ -34,10 +33,10 @@ clientes[filtro]
 #utilizando copy para imagem diferente
 
 A = [1,2]
-B = A.copy(UY7)
+B = A.copy()
 print('A:', A)
 print('B:', B)
 
-B.append('FODASE')
+B.append('teste')
 print('A:', A) 
-print('B', B)
+print('B:', B)
