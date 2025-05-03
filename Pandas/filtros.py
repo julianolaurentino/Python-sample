@@ -23,8 +23,9 @@ brinquedo = pd.DataFrame(
         "uf": ["sp","rj","ce"],
     }
 )
-filtro = brinquedo["idade"] == 30
-brinquedo[filtro]
+#filtro = brinquedo["idade"] == 30pint
+print(brinquedo)
+
 
 # %%
 #qtd de pontos acima de 50
@@ -49,3 +50,4 @@ df[acima_50_ou_100]
 
 filtro = (df['qtdePontos'] > 0) & (df['qtdePontos'] <=50) & (df['dtCriacao'] >= '2025-01-01')
 df[filtro] 
+
