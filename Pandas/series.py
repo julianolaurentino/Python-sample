@@ -1,6 +1,7 @@
 # %%
 import pandas as pd
 
+
 idades = [
     32, 38, 30, 30, 31,
     35, 25, 29, 31, 37,
@@ -26,4 +27,3 @@ idades = [
 ]
 
 series_idades = pd.Series(idades)
-print(series_idades)
