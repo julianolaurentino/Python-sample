@@ -27,3 +27,4 @@ idades = [
 ]
 
 series_idades = pd.Series(idades)
+print(series_idades)
