@@ -12,7 +12,7 @@ clientes
 # %%
 # Variáveis são como referências a objetos
 A = [1,2]
-B = A
+B = A.copy() # cria uma cópia para isolar a variavel
 print('A:', A)
 print('B:', B)
 
