@@ -6,3 +6,16 @@ clientes.head()
 
 filtro = clientes['qtdePontos'] == 0
 clientes[filtro]
+clientes['flag_1'] = 1
+clientes
+
+# %%
+# Variáveis são como referências a objetos
+A = [1,2]
+B = A
+print('A:', A)
+print('B:', B)
+
+B.append('view')
+print('A:', A)
+print('B:', B)
