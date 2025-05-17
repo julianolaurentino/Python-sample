@@ -32,3 +32,5 @@ df[cliente_com_todas]
 # %%
 top_pontos = df.nlargest(10, 'qtdePontos')
 top_pontos
+# %%
+df['qtdePontos'].describe()
