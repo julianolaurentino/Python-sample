@@ -11,3 +11,4 @@ df
 # %%
 df_vice = df.explode('vicePresidents')[['name','vicePresidents']]
 df_vice
+# %%
