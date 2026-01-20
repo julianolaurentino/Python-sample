@@ -1,6 +1,5 @@
 produto = str(input("Digite o nome do produto: "))
 preco = float(input("Digite o preço do produto: R$ "))
-quantidade = int(input("Digite a quantidade em estoque: ")) 
 
 def estoque():
     opcao = int(input("Escolha uma opção:\n1 - Adicionar estoque\n2 - Remover estoque\n3 - Verificar estoque\n"))
