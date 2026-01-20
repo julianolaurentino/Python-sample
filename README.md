@@ -10,7 +10,3 @@ Os exercícios são variados e cobrem tópicos como:
 ✅ Tratamento de arquivos  
 ✅ Algoritmos e lógica de programação  
 
-## 🚀 Como Usar  
-1. Clone este repositório:  
-   ```bash
-   git clone https://github.com/julianolaurentino/exercicios-python.git
