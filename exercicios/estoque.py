@@ -1,5 +1,6 @@
 produto = str(input("Digite o nome do produto: "))
 preco = float(input("Digite o preço do produto: R$ "))
+quantidade = 0
 
 def estoque():
     opcao = int(input("Escolha uma opção:\n1 - Adicionar estoque\n2 - Remover estoque\n3 - Verificar estoque\n"))
@@ -28,7 +29,7 @@ def estoque():
                 quantidade_atualizada = quantidade - remover
                 print(f"Estoque atualizado. Novo estoque de {produto}: {quantidade_atualizada} unidades.")
         elif opcao == 3:
-            print(f"O estoque atual de {produto} é: {quantidade} unidades.")
+            print(f"O estoque atual de {produto} é: {quantidade_atualizada} unidades.")
         elif opcao == 0:
             print("Saindo do programa.")
         else:
