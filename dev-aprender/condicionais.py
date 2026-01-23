@@ -37,3 +37,14 @@ elif quantidade_atraso == 2:
     print('Ainda posso entrar')
 else:
     print('Serei suspenso')
+
+
+# Crie um programa que recebe dois valores e exibe qual é o maior entre eles
+
+primeiro_valor = int(input('Digite o primeiro valor: '))
+segundo_valor = int(input('Digite o segundo valor: '))
+
+if primeiro_valor > segundo_valor:
+    print(f'Primeiro valor = {primeiro_valor}\nSegundo valor = {segundo_valor}\nResultado: Primeiro valor maior que o segundo valor')
+else:
+    print(f'Primeiro valor = {primeiro_valor}\nSegundo valor = {segundo_valor}\nResultado: Segundo valor maior que o primeiro valor')
