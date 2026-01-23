@@ -1,7 +1,7 @@
 # condicionais - if elif else
 '''
 Eaeh, vamos tomar aquela gelada hoje?
-Se eu terminar meu trabalho aqui eu consigo
+ - Se eu terminar meu trabalho aqui eu consigo
 '''
 
 trabalho_terminado = False
