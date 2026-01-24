@@ -29,7 +29,6 @@ for item in range(2,12,2):
 
 
 # listas
-
 nomes = ['joao','maria','jose','raimundo']
 for nome in nomes:
     print(nome)
@@ -41,5 +40,9 @@ for data in all_data:
 print(type(data))
 
 # Utilizando condicionais dentro do laço
-
- 
+idades = [13,15,18,30,50,75]
+for idade in idades:
+    if idade >= 18:
+        print(f'Idade: {idade} - Maior de idade')
+    else:
+        print(f'Idade: {idade} - Menor de idade')
