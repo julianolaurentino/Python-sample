@@ -46,3 +46,30 @@ for idade in idades:
         print(f'Idade: {idade} - Maior de idade')
     else:
         print(f'Idade: {idade} - Menor de idade')
+
+
+'''
+Desafio:
+Validador de senhas
+
+Problema:
+você trabalha em um sistema que precisa verificar se todas as senhas digitadas
+por usuário são válidas
+
+Para uma senha ser válida, ela precisa ter pelo menos 6 caracteres
+'''
+# com variável contagem
+senha = int(input('Digite a sua senha: '))
+contagem = 6
+if senha < contagem:
+    print('Sua senha tem menos de 6 caracteres')
+else:
+    print('Sua senha é válida')
+ 
+# com laço e len
+senhas = []
+for senha in senhas:
+    if len(senha) >= 6:
+        print('Senha válida')
+    else:
+        print('Senha inválida')
