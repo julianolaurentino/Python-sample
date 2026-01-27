@@ -4,7 +4,7 @@
 While condicao:
     codigo a ser executado
 '''
-'''
+
 # Programa que permite 3 tentativas, antes de fechar
 tentativas = 0
 while tentativas < 3:
@@ -37,7 +37,6 @@ while horario <= 17:
     horario = horario + 1
 print('Hora de ver o por do sol')
 
-'''
 
 # Desafio
 # Crie um gerenciador de login simples, com no maximo 3 tentativas.
