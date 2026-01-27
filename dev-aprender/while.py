@@ -1,4 +1,4 @@
-# # laços de repetição While
+# laços de repetição While
 
 '''
 While condicao:
