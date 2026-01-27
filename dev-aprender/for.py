@@ -1,4 +1,4 @@
-# laços de repetição
+# laços de repetição For
 
 for item in range(3):
     print('item')
