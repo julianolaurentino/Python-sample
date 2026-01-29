@@ -7,5 +7,5 @@ numero = int(input('Digite um numero: '))
 
 for num in range(1, numero + 1):
     fatorial *= num
-    print(f'A sequencia do fatorial de {numero} é: {fatorial}')
-print(fatorial)
+    print(fatorial)
+print(f'O fatorial de {numero} é {fatorial}')
