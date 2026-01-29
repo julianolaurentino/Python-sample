@@ -18,3 +18,10 @@ print(f'Salários atualizados: {salarios}')
 salarios_funcionarios = [1300, 2000, 3400, 5000]
 total_gastos = sum(salarios_funcionarios)
 print(f'Total gasto com salários: R$ {total_gastos}')
+
+# Alternativa com for
+salarios_funcionarios_novo = [2500, 900, 5000, 7500]
+total = 0 
+for salario in salarios_funcionarios_novo:
+    total = total + salario
+print(f' O total pago é de R$: {total}')
