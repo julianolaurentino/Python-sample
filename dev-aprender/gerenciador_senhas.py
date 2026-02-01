@@ -52,3 +52,8 @@ class GerenciadorSenhas:
                 break
             else:
                 print(mensagem)
+
+# Execução do programa
+if __name__ == "__main__":
+    gerenciador = GerenciadorSenhas()
+    gerenciador.criar_senha()
