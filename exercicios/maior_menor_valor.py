@@ -26,6 +26,4 @@ if __name__ == "__main__":
     for i in range(1, 4):
         valor = int(input(f'{i}º valor: '))
         valores.append(valor)
-    
     encontrar_maior_menor(valores)
-
