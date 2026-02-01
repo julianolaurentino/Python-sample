@@ -24,7 +24,7 @@ while True:
 
 from random import randint
 computador = randint(0, 10)
-print('Adidinhe o número que estou pensando ')
+print('Adivinhe o número que estou pensando ')
 acertou = False
 palpite = 0
 while not acertou:
