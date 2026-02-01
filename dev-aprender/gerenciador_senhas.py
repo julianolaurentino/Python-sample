@@ -6,7 +6,7 @@ Problema:
 você trabalha em um sistema que precisa verificar se todas as senhas digitadas
 por usuário são válidas
 
-Para uma senha ser válida, ela precisa ter pelo menos 10 caracteres. Dentro desses caracteres, é necessário ter no minimo um caractere especial, uma letra maiuscula e um numero.
+Para uma senha ser válida, ela precisa ter pelo menos 10 caracteres. Dentro desses caracteres, é necessário ter no minimo um caractere especial, uma letra maiuscula e um numero
 '''
 
 # Funções de validação
@@ -53,7 +53,7 @@ class GerenciadorSenhas:
             else:
                 print(mensagem)
 
-# Execução do programa
+# Parte da Execução
 if __name__ == "__main__":
     gerenciador = GerenciadorSenhas()
     gerenciador.criar_senha()
