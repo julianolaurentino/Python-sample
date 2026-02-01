@@ -11,7 +11,6 @@ minha_funcao()
 print(nome)
 '''
 
-
 # --funções globais--
 # exemplo colocando a variável nome conmpleto fora da função e tentando chamar dentro da função 
 # funciona por ser global
@@ -45,3 +44,32 @@ def subtrair(n1, n2):
 resultado_subtrair = subtrair(2,1)
 print(resultado_subtrair)
 
+
+# Exemplo com numeros pares
+def verificar_par(numero):
+    if numero % 2 == 0:
+        return True
+    else:
+        return False
+verificacao = verificar_par(3)
+print(verificacao)
+
+
+# exemplo com lista de numeros e retornar a media 
+def somar_lista(*numeros):
+    resultado = 0
+    for numero in numeros:
+        print(numero)
+        resultado += numero
+    return resultado
+
+def calcular_media(*numeros):
+    qtd = len(numeros)
+    soma = 0
+    for numero in numeros:
+        soma += numero
+        media = soma / qtd
+    return media
+
+resultado = calcular_media(7,2,4,9)
+print(f'A média é {resultado}')
