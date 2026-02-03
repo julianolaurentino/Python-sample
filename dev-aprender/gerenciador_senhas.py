@@ -8,7 +8,6 @@ por usuário são válidas
 
 Para uma senha ser válida, ela precisa ter pelo menos 10 caracteres. Dentro desses caracteres, é necessário ter no minimo um caractere especial, uma letra maiuscula e um numero
 '''
-
 # Funções de validação
 def tem_comprimento_minimo(senha, min_len=10):
     return len(senha) >= min_len
@@ -31,7 +30,7 @@ def validar_senha(senha):
         return False, "Senha deve conter pelo menos uma letra maiúscula."
     if not tem_numero(senha):
         return False, "Senha deve conter pelo menos um número."
-    return True, "Senha válida."
+    return True, "Senha válida.
 
 # Exceção personalizada
 class SenhaInvalidaError(Exception):
