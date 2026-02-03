@@ -73,3 +73,10 @@ def calcular_media(*numeros):
 
 resultado = calcular_media(7,2,4,9)
 print(f'A média é {resultado}')
+
+# exemplo informações pessoais com várias chaves e valores
+def informacoes_pessoais(**informacoes):
+    for chave, valor in informacoes.items():
+        print(f'{chave}: {valor}')
+
+informacoes_pessoais(nome="Claudio", idade=22, natural='Paraíba', cargo='Coordenador')
