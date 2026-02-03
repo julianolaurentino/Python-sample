@@ -78,4 +78,6 @@ print(f'A média é {resultado}')
 def informacoes_pessoais(**informacoes):
     for chave, valor in informacoes.items():
         print(f'{chave}: {valor}')
+
+        
 informacoes_pessoais(nome="Claudio", idade=22, natural='Paraíba', cargo='Coordenador')
