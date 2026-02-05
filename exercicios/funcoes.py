@@ -9,8 +9,8 @@ def minha_funcao():
     print('Esta é uma função no python')
 minha_funcao()
 print(nome)
-'''
 
+'''
 # --funções globais--
 # exemplo colocando a variável nome conmpleto fora da função e tentando chamar dentro da função 
 # funciona por ser global
@@ -81,3 +81,28 @@ def informacoes_pessoais(**informacoes):
 
         
 informacoes_pessoais(nome="Claudio", idade=22, natural='Paraíba', cargo='Coordenador')
+
+
+'''
+Desafio
+crie uma função que recebe um numero, e faz um contador regressivo a partir dele
+'''
+
+def contador_regressivo(numero):
+    for i in range(numero, -1, -1):
+        print(i)
+contador_regressivo(20)
+
+
+'''
+crie uma função que recebe uma lista e retorn o maior numero dessa lista
+'''
+def maior_numero(lista):
+    maior = lista[0]
+    for numero in lista:
+        if numero > maior:
+            maior = numero
+    return maior
+lista_numeros = [3,5,7,2,8,1]
+resultado_maior = maior_numero(lista_numeros)
+print(f'O maior numero da lista é: {resultado_maior}')
