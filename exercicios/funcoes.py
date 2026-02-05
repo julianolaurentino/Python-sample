@@ -93,6 +93,18 @@ def contador_regressivo(numero):
         print(i)
 contador_regressivo(20)
 
+# alternativa
+def contagem_regrassiva(numero):
+    while True:
+        print(numero)
+        # numero = numero - 1
+        numero-=1
+        if numero <= 0:
+            break
+contagem_regrassiva(10)
+
+
+
 
 '''
 crie uma função que recebe uma lista e retorn o maior numero dessa lista
