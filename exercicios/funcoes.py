@@ -99,7 +99,7 @@ def contagem_regrassiva(numero):
         print(numero)
         # numero = numero - 1
         numero-=1
-        if numero <= 0:
+        if numero < 0:
             break
 contagem_regrassiva(10)
 
@@ -118,3 +118,11 @@ def maior_numero(lista):
 lista_numeros = [3,5,7,2,8,1]
 resultado_maior = maior_numero(lista_numeros)
 print(f'O maior numero da lista é: {resultado_maior}')
+
+# alternativa
+def maior_numero(lista_de_numeros):
+    maior_numero = max(lista_de_numeros)
+    return maior_numero
+lista = [4,8,9,2,5]
+maior_numero_lista = maior_numero(lista)
+print(f'O maior numero da lista é {maior_numero_lista}')
