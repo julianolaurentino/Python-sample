@@ -5,4 +5,4 @@ while numero <= 100:
 print("Laço encerrado...")
 
 
-# comentario teste
+# comentario
