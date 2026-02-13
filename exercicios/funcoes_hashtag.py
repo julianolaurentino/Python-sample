@@ -23,3 +23,11 @@ def calcular_imposto(valor):
 preco_produto = 2500
 imposto = calcular_imposto(preco_produto)
 print(imposto)
+
+
+# exemplo 2
+
+def nome(valor):
+    nome = print(f'Olá {valor}')
+
+nome('Rubens')
