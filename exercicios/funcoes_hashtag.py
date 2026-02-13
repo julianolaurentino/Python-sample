@@ -18,3 +18,8 @@ def calcular_imposto(valor):
     else:
         imposto = valor * 0.2
     return imposto
+
+
+preco_produto = 2500
+imposto = calcular_imposto(preco_produto)
+print(imposto)
