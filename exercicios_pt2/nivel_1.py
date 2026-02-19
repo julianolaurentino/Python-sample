@@ -10,3 +10,4 @@ segundo_numero = int(input("Digite o segundo numero: "))
 soma = primeiro_numero + segundo_numero
 
 print(f"A soma de {primeiro_numero} com {segundo_numero} é {soma}")
+print("Teste com zed ide")
