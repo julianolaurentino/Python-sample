@@ -10,7 +10,7 @@ instância = é um objeto individual criado a partir de uma classe
 
 # Modelo para criar novas instancias
 # marca, memoria ram, placa de video
-
+import pandas as pd
 class computador:
     def __init__(self):
         self.marca = 'Positivo'
