@@ -26,7 +26,7 @@ def calculadora_avancada():
         except ValueError:
             print("Entrada inválida. Por favor, digite um número válido.")
             continue
-
+        
         operacao = input("Digite a operação (+, -, *, /): ")
         if operacao == "+":
             resultado = primeiro_numero + segundo_numero
@@ -56,5 +56,5 @@ def calculadora_avancada():
         else:
             print("Entrada inválida. Encerrando a calculadora avançada.")  
         break
-    
+        
 calculadora_avancada()
