@@ -5,7 +5,7 @@ quer ver esse tempo no formato: "X anos e Y meses". Objetivo: Utilize os operado
 divisão inteira e resto da divisão para converter os 40 meses.
 """
 
-contrato = 40
+contrato = 30
 anos = contrato // 12
 meses = contrato % 12
 
