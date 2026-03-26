@@ -16,6 +16,7 @@ def calculadora_simples():
 
 # Crie uma calculadora avançada
 
+
 def calculadora_avancada():
     while True:
         print("Calculadora avançada")
@@ -26,7 +27,7 @@ def calculadora_avancada():
         except ValueError:
             print("Entrada inválida. Por favor, digite um número válido.")
             continue
-        
+
         operacao = input("Digite a operação (+, -, *, /): ")
         if operacao == "+":
             resultado = primeiro_numero + segundo_numero
@@ -38,7 +39,7 @@ def calculadora_avancada():
             resultado = primeiro_numero / segundo_numero
         else:
             print("Operação inválida")
-            
+
             while True:
                 operacao = input("Digite uma operação válida novamente (+, -, *, /): ")
                 if operacao in ["+", "-", "*", "/"]:
@@ -46,15 +47,18 @@ def calculadora_avancada():
                 else:
                     print("Operação inválida. Encerrando a calculadora avançada.")
                     break
-        
-        print(f"O resultado de {primeiro_numero} {operacao} {segundo_numero} é {resultado}")
-        continuar = input('Deseja continuar? (s/n): ')
-        if continuar == 'n':
+
+        print(
+            f"O resultado de {primeiro_numero} {operacao} {segundo_numero} é {resultado}"
+        )
+        continuar = input("Deseja continuar? (s/n): ")
+        if continuar == "n":
             print("Encerrando a calculadora avançada")
-        elif continuar == 's':
+        elif continuar == "s":
             continue
         else:
-            print("Entrada inválida. Encerrando a calculadora avançada.")  
+            print("Entrada inválida. Encerrando a calculadora avançada.")
         break
-        
+
+
 calculadora_avancada()
