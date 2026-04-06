@@ -1,20 +1,4 @@
-"""
-Exercicios para fixação nivel basico ao avançado
-Laços, variáveis e funções
-"""
-
-"""
-# Crie um programa de soma simples
-
-def calculadora_simples():
-    print("Calculadora simples")
-    primeiro_numero = int(input("Digite o primeiro numero: "))
-    segundo_numero = int(input("Digite o segundo numero: "))
-    soma = primeiro_numero + segundo_numero
-    print(f"A soma de {primeiro_numero} com {segundo_numero} é {soma}")
-"""
-
-# Crie uma calculadora avançada
+# Calculadora avançada utilizando função, tratamento de erros e loop para continuar ou encerrar a calculadora.
 
 
 def calculadora_avancada():
