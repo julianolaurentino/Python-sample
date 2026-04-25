@@ -17,7 +17,7 @@ class CarroPopular(Carro):
         self.preco = preco
 
     def exibir_informacoes(self):
-        # herança do método exibir_informacoes da classe Carro utilizando super()
+        # herança do método
         super().exibir_informacoes()
         print(f"Preço: {self.preco}")
 
