@@ -1,13 +1,18 @@
 import random
 import time
 
+# ============================
 # Variáveis globais
+# ============================
 pontuação_jogador = 0
 pontuação_computador = 0
 rodada_atual = 0
 máximo_rodadas = 3
 
 
+# ============================
+# Funções
+# ============================
 def escolha_jogador():
     while True:
         escolha = input("\nEscolha (pedra/papel/tesoura): ").lower()
@@ -87,5 +92,8 @@ def principal():
     mostrar_resultado_final()
 
 
+# ============================
+# Execução do jogo
+# # ============================
 if __name__ == "__main__":
     principal()
